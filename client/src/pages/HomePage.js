@@ -8,6 +8,7 @@ import toast from "react-hot-toast";
 import Layout from "./../components/Layout/Layout";
 import { AiOutlineReload } from "react-icons/ai";
 import "../styles/Homepage.css";
+import Chatbot from "../components/Layout/Chatbot.js";
 
 const HomePage = () => {
   const navigate = useNavigate();
@@ -218,6 +219,7 @@ const HomePage = () => {
               </button>
             )}
           </div>
+            <Chatbot />
         </div>
       </div>
     </Layout>
